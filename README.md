@@ -8,18 +8,14 @@ First: Focused on survey reliability, company tool preferences versus developer 
 Second: Investigated the impact of AI tools on developers’ salaries, satisfaction, and adoption across countries.
 Third: Examined how work arrangements (remote, hybrid, in-person) influence job satisfaction, salary, AI adoption, and technology preferences.
 
-### The goal of this project is to provide insights into how job role, education, AI usage, and work conditions shape the professional experience of developers worldwide.
+The goal of this project is to provide insights into how job role, education, AI usage, and work conditions shape the professional experience of developers worldwide.
 
 
 ## Dataset:
 
-Source : Stack Overflow Developer Survey 2024
-Size: ~65,000 developer responses
-Format: CSV (stored under data/raw/)
-
-The dataset is based on the 2024 Stack Overflow Developer Survey, which gathered responses from 65,000+ developers across 180+ countries.
-For our project, we focused on three main themes shaping today’s developer experience:
-Education, AI, Work Arrangement
+- Source : [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/)
+- Size: ~65,000 developer responses
+- Format: CSV (stored under data/raw/)
 
 ## Analysis
 
@@ -29,7 +25,11 @@ Education, AI, Work Arrangement
 
 - Work Arrangement: The majority of participants work in hybrid setups, while fully in-person roles are the least common. Across all arrangements, developers in the USA earn the most. The data also highlights noticeable differences in language and database choices between in-person developers and those working remotely or in hybrid models.
 
-## How to Run: Instructions for running your code. 
+## How to Run: 
+- Clone or download this project.
+- Open the Jupyter Notebook (.ipynb) file.
+- Run the cells step by step.
+- Make sure the dataset is placed in the correct directory. 
 
 ## Dependencies: 
 The Python libraries required for this project are:
