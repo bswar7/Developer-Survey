@@ -1,5 +1,8 @@
 # Developer Survey 2024 – Analysis
 
+![4844cb87ed75ac445329a17395aa3753](https://github.com/user-attachments/assets/d260e91e-5cae-4485-9d7f-aba446ceb47c)
+
+
 ## Overview 
 
 This project analyzes the [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/) to understand how different factors affect developers’ salaries, job satisfaction, and tool usage across the top 10 countries. 
@@ -19,11 +22,17 @@ The goal of this project is to provide insights into how job role, education, AI
 
 ## Analysis
 
-- Education: While many developers hold a bachelor’s degree, online platforms remain the most common resource for learning. Preferences in technology differ, but JavaScript continues to be the most widely used programming language.
+### Analysis Steps
+- Data cleaning and preprocessing.
+- Filtering important columns such as (AI tools, country, Employment, Education level).
+- Creating visualizations using bar charts, histograms, and correlation plots.
+- Extracting insights on AI usage, education, and work arrangements.
 
-- AI: Findings indicate that non-AI users generally earn higher salaries compared to AI users. Among all countries, the USA records the highest average salary for both groups. However, job satisfaction levels appear nearly the same between AI and non-AI users.
+### Key Findings:
 
-- Work Arrangement: The majority of participants work in hybrid setups, while fully in-person roles are the least common. Across all arrangements, developers in the USA earn the most. The data also highlights noticeable differences in language and database choices between in-person developers and those working remotely or in hybrid models.
+- Education: While many developers hold a bachelor’s degree, online platforms remain the most common resource for learning. JavaScript is still the most widely used programming language, though technology preferences differ.
+- AI: Non-AI users tend to earn higher salaries than AI users. The USA has the highest average salary for both groups. Job satisfaction is nearly the same between AI and non-AI users.
+- Work Arrangement: Hybrid work is the most common setup, while fully in-person roles are the least common. Developers in the USA earn the most across all arrangements. Clear differences exist in language and database preferences between in-person developers and those working hybrid or remote.
 
 ## How to Run: 
 - Clone or download this project.
