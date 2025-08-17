@@ -14,7 +14,7 @@ Third: Examined how work arrangements (remote, hybrid, in-person) influence job 
 The goal of this project is to provide insights into how job role, education, AI usage, and work conditions shape the professional experience of developers worldwide.
 
 
-## Dataset:
+## Dataset
 
 - Source : [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/)
 - Size: ~65,000 developer responses
@@ -22,7 +22,7 @@ The goal of this project is to provide insights into how job role, education, AI
 
 ## Analysis
 
-### Analysis Steps
+### Analysis Steps:
 - Data cleaning and preprocessing.
 - Filtering important columns such as (AI tools, country, Employment, Education level).
 - Creating visualizations using bar charts, histograms, and correlation plots.
@@ -34,13 +34,13 @@ The goal of this project is to provide insights into how job role, education, AI
 - AI: Non-AI users tend to earn higher salaries than AI users. The USA has the highest average salary for both groups. Job satisfaction is nearly the same between AI and non-AI users.
 - Work Arrangement: Hybrid work is the most common setup, while fully in-person roles are the least common. Developers in the USA earn the most across all arrangements. Clear differences exist in language and database preferences between in-person developers and those working hybrid or remote.
 
-## How to Run: 
+## How to Run
 - Clone or download this project.
 - Open the Jupyter Notebook (.ipynb) file.
 - Run the cells step by step.
 - Make sure the dataset is placed in the correct directory. 
 
-## Dependencies: 
+## Dependencies
 The Python libraries required for this project are:
 
 - pandas → for data manipulation and analysis.
