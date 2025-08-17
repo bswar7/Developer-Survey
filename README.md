@@ -1,8 +1,8 @@
-# Developer Work & Tools Survey
+# Developer Survey 2024 – Analysis
 
 ## Overview 
-
-This project analyzes the 2024 Stack Overflow Developer Survey to understand how different factors affect developers’ salaries, job satisfaction, and tool usage across the top 10 countries. 
+https://survey.stackoverflow.co/2024/ 
+This project analyzes the [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/) to understand how different factors affect developers’ salaries, job satisfaction, and tool usage across the top 10 countries. 
 First: Focused on survey reliability, company tool preferences versus developer preferences, and the most common resources developers use to learn coding.
 Second: Investigated the impact of AI tools on developers’ salaries, satisfaction, and adoption across countries.
 Third: Examined how work arrangements (remote, hybrid, in-person) influence job satisfaction, salary, AI adoption, and technology preferences.
