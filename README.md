@@ -1,22 +1,35 @@
 # Developer Survey 2024 – Analysis
 
 ## Overview 
-https://survey.stackoverflow.co/2024/ 
+
 This project analyzes the [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/) to understand how different factors affect developers’ salaries, job satisfaction, and tool usage across the top 10 countries. 
+For our project, we focused on three main themes shaping today’s developer experience:
 First: Focused on survey reliability, company tool preferences versus developer preferences, and the most common resources developers use to learn coding.
 Second: Investigated the impact of AI tools on developers’ salaries, satisfaction, and adoption across countries.
 Third: Examined how work arrangements (remote, hybrid, in-person) influence job satisfaction, salary, AI adoption, and technology preferences.
-The goal of this project is to provide insights into how job role, education, AI usage, and work conditions shape the professional experience of developers worldwide.
+
+### The goal of this project is to provide insights into how job role, education, AI usage, and work conditions shape the professional experience of developers worldwide.
 
 
 ## Dataset:
+
+Source : Stack Overflow Developer Survey 2024
+Size: ~65,000 developer responses
+Format: CSV (stored under data/raw/)
+
 The dataset is based on the 2024 Stack Overflow Developer Survey, which gathered responses from 65,000+ developers across 180+ countries.
 For our project, we focused on three main themes shaping today’s developer experience:
 Education, AI, Work Arrangement
 
+## Analysis
 
-● Analysis: Summary of your analysis and key findings. 
-● How to Run: Instructions for running your code. 
+- Education: While many developers hold a bachelor’s degree, online platforms remain the most common resource for learning. Preferences in technology differ, but JavaScript continues to be the most widely used programming language.
+
+- AI: Findings indicate that non-AI users generally earn higher salaries compared to AI users. Among all countries, the USA records the highest average salary for both groups. However, job satisfaction levels appear nearly the same between AI and non-AI users.
+
+- Work Arrangement: The majority of participants work in hybrid setups, while fully in-person roles are the least common. Across all arrangements, developers in the USA earn the most. The data also highlights noticeable differences in language and database choices between in-person developers and those working remotely or in hybrid models.
+
+## How to Run: Instructions for running your code. 
 
 ## Dependencies: 
 The Python libraries required for this project are:
